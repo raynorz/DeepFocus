@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C6EBDFF2B2AE7C800995A65 /* DeepFocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EBDFE2B2AE7C800995A65 /* DeepFocusApp.swift */; };
+		2C6EBE012B2AE7C800995A65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EBE002B2AE7C800995A65 /* ContentView.swift */; };
+		2C6EBE032B2AE7C800995A65 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EBE022B2AE7C800995A65 /* Item.swift */; };
+		2C6EBE052B2AE7C900995A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EBE042B2AE7C900995A65 /* Assets.xcassets */; };
+		2C6EBE082B2AE7C900995A65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EBE072B2AE7C900995A65 /* Preview Assets.xcassets */; };
+		2C6EBE142B2AE7C900995A65 /* DeepFocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EBE132B2AE7C900995A65 /* DeepFocusTests.swift */; };
+		2C6EBE1E2B2AE7C900995A65 /* DeepFocusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EBE1D2B2AE7C900995A65 /* DeepFocusUITests.swift */; };
+		2C6EBE202B2AE7C900995A65 /* DeepFocusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EBE1F2B2AE7C900995A65 /* DeepFocusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C6EBE102B2AE7C900995A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6EBDF32B2AE7C800995A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6EBDFA2B2AE7C800995A65;
+			remoteInfo = DeepFocus;
+		};
+		2C6EBE1A2B2AE7C900995A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6EBDF32B2AE7C800995A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6EBDFA2B2AE7C800995A65;
+			remoteInfo = DeepFocus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C6EBDFB2B2AE7C800995A65 /* DeepFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6EBDFE2B2AE7C800995A65 /* DeepFocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepFocusApp.swift; sourceTree = "<group>"; };
+		2C6EBE002B2AE7C800995A65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C6EBE022B2AE7C800995A65 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2C6EBE042B2AE7C900995A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C6EBE072B2AE7C900995A65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C6EBE092B2AE7C900995A65 /* DeepFocus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeepFocus.entitlements; sourceTree = "<group>"; };
+		2C6EBE0A2B2AE7C900995A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6EBE0F2B2AE7C900995A65 /* DeepFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6EBE132B2AE7C900995A65 /* DeepFocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepFocusTests.swift; sourceTree = "<group>"; };
+		2C6EBE192B2AE7C900995A65 /* DeepFocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepFocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6EBE1D2B2AE7C900995A65 /* DeepFocusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepFocusUITests.swift; sourceTree = "<group>"; };
+		2C6EBE1F2B2AE7C900995A65 /* DeepFocusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepFocusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C6EBDF82B2AE7C800995A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EBE0C2B2AE7C900995A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EBE162B2AE7C900995A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6EBDF22B2AE7C800995A65 = {
+			isa = PBXGroup;
+			children = (
+				2C6EBDFD2B2AE7C800995A65 /* DeepFocus */,
+				2C6EBE122B2AE7C900995A65 /* DeepFocusTests */,
+				2C6EBE1C2B2AE7C900995A65 /* DeepFocusUITests */,
+				2C6EBDFC2B2AE7C800995A65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C6EBDFC2B2AE7C800995A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EBDFB2B2AE7C800995A65 /* DeepFocus.app */,
+				2C6EBE0F2B2AE7C900995A65 /* DeepFocusTests.xctest */,
+				2C6EBE192B2AE7C900995A65 /* DeepFocusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C6EBDFD2B2AE7C800995A65 /* DeepFocus */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EBDFE2B2AE7C800995A65 /* DeepFocusApp.swift */,
+				2C6EBE002B2AE7C800995A65 /* ContentView.swift */,
+				2C6EBE022B2AE7C800995A65 /* Item.swift */,
+				2C6EBE042B2AE7C900995A65 /* Assets.xcassets */,
+				2C6EBE092B2AE7C900995A65 /* DeepFocus.entitlements */,
+				2C6EBE0A2B2AE7C900995A65 /* Info.plist */,
+				2C6EBE062B2AE7C900995A65 /* Preview Content */,
+			);
+			path = DeepFocus;
+			sourceTree = "<group>";
+		};
+		2C6EBE062B2AE7C900995A65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EBE072B2AE7C900995A65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C6EBE122B2AE7C900995A65 /* DeepFocusTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EBE132B2AE7C900995A65 /* DeepFocusTests.swift */,
+			);
+			path = DeepFocusTests;
+			sourceTree = "<group>";
+		};
+		2C6EBE1C2B2AE7C900995A65 /* DeepFocusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EBE1D2B2AE7C900995A65 /* DeepFocusUITests.swift */,
+				2C6EBE1F2B2AE7C900995A65 /* DeepFocusUITestsLaunchTests.swift */,
+			);
+			path = DeepFocusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C6EBDFA2B2AE7C800995A65 /* DeepFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6EBE232B2AE7C900995A65 /* Build configuration list for PBXNativeTarget "DeepFocus" */;
+			buildPhases = (
+				2C6EBDF72B2AE7C800995A65 /* Sources */,
+				2C6EBDF82B2AE7C800995A65 /* Frameworks */,
+				2C6EBDF92B2AE7C800995A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepFocus;
+			productName = DeepFocus;
+			productReference = 2C6EBDFB2B2AE7C800995A65 /* DeepFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C6EBE0E2B2AE7C900995A65 /* DeepFocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6EBE262B2AE7C900995A65 /* Build configuration list for PBXNativeTarget "DeepFocusTests" */;
+			buildPhases = (
+				2C6EBE0B2B2AE7C900995A65 /* Sources */,
+				2C6EBE0C2B2AE7C900995A65 /* Frameworks */,
+				2C6EBE0D2B2AE7C900995A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6EBE112B2AE7C900995A65 /* PBXTargetDependency */,
+			);
+			name = DeepFocusTests;
+			productName = DeepFocusTests;
+			productReference = 2C6EBE0F2B2AE7C900995A65 /* DeepFocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C6EBE182B2AE7C900995A65 /* DeepFocusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6EBE292B2AE7C900995A65 /* Build configuration list for PBXNativeTarget "DeepFocusUITests" */;
+			buildPhases = (
+				2C6EBE152B2AE7C900995A65 /* Sources */,
+				2C6EBE162B2AE7C900995A65 /* Frameworks */,
+				2C6EBE172B2AE7C900995A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6EBE1B2B2AE7C900995A65 /* PBXTargetDependency */,
+			);
+			name = DeepFocusUITests;
+			productName = DeepFocusUITests;
+			productReference = 2C6EBE192B2AE7C900995A65 /* DeepFocusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C6EBDF32B2AE7C800995A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					2C6EBDFA2B2AE7C800995A65 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					2C6EBE0E2B2AE7C900995A65 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2C6EBDFA2B2AE7C800995A65;
+					};
+					2C6EBE182B2AE7C900995A65 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2C6EBDFA2B2AE7C800995A65;
+					};
+				};
+			};
+			buildConfigurationList = 2C6EBDF62B2AE7C800995A65 /* Build configuration list for PBXProject "DeepFocus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C6EBDF22B2AE7C800995A65;
+			productRefGroup = 2C6EBDFC2B2AE7C800995A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C6EBDFA2B2AE7C800995A65 /* DeepFocus */,
+				2C6EBE0E2B2AE7C900995A65 /* DeepFocusTests */,
+				2C6EBE182B2AE7C900995A65 /* DeepFocusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C6EBDF92B2AE7C800995A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EBE082B2AE7C900995A65 /* Preview Assets.xcassets in Resources */,
+				2C6EBE052B2AE7C900995A65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EBE0D2B2AE7C900995A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EBE172B2AE7C900995A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6EBDF72B2AE7C800995A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EBE012B2AE7C800995A65 /* ContentView.swift in Sources */,
+				2C6EBE032B2AE7C800995A65 /* Item.swift in Sources */,
+				2C6EBDFF2B2AE7C800995A65 /* DeepFocusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EBE0B2B2AE7C900995A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EBE142B2AE7C900995A65 /* DeepFocusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EBE152B2AE7C900995A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EBE1E2B2AE7C900995A65 /* DeepFocusUITests.swift in Sources */,
+				2C6EBE202B2AE7C900995A65 /* DeepFocusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C6EBE112B2AE7C900995A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6EBDFA2B2AE7C800995A65 /* DeepFocus */;
+			targetProxy = 2C6EBE102B2AE7C900995A65 /* PBXContainerItemProxy */;
+		};
+		2C6EBE1B2B2AE7C900995A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6EBDFA2B2AE7C800995A65 /* DeepFocus */;
+			targetProxy = 2C6EBE1A2B2AE7C900995A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C6EBE212B2AE7C900995A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C6EBE222B2AE7C900995A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C6EBE242B2AE7C900995A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeepFocus/DeepFocus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepFocus/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CZVT3TM7A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepFocus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brezidan.DeepFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C6EBE252B2AE7C900995A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeepFocus/DeepFocus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepFocus/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CZVT3TM7A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepFocus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brezidan.DeepFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C6EBE272B2AE7C900995A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CZVT3TM7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brezidan.DeepFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeepFocus";
+			};
+			name = Debug;
+		};
+		2C6EBE282B2AE7C900995A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CZVT3TM7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brezidan.DeepFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeepFocus";
+			};
+			name = Release;
+		};
+		2C6EBE2A2B2AE7C900995A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CZVT3TM7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brezidan.DeepFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepFocus;
+			};
+			name = Debug;
+		};
+		2C6EBE2B2B2AE7C900995A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CZVT3TM7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brezidan.DeepFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepFocus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C6EBDF62B2AE7C800995A65 /* Build configuration list for PBXProject "DeepFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6EBE212B2AE7C900995A65 /* Debug */,
+				2C6EBE222B2AE7C900995A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6EBE232B2AE7C900995A65 /* Build configuration list for PBXNativeTarget "DeepFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6EBE242B2AE7C900995A65 /* Debug */,
+				2C6EBE252B2AE7C900995A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6EBE262B2AE7C900995A65 /* Build configuration list for PBXNativeTarget "DeepFocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6EBE272B2AE7C900995A65 /* Debug */,
+				2C6EBE282B2AE7C900995A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6EBE292B2AE7C900995A65 /* Build configuration list for PBXNativeTarget "DeepFocusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6EBE2A2B2AE7C900995A65 /* Debug */,
+				2C6EBE2B2B2AE7C900995A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C6EBDF32B2AE7C800995A65 /* Project object */;
+}
